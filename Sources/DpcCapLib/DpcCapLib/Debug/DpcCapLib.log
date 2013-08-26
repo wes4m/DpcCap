@@ -1,0 +1,15 @@
+﻿Build started 30/09/34 11:21:27 ص.
+     1>Project "C:\Users\HP\Desktop\Winpcap dll utitles\DpcCapLib\DpcCapLib\DpcCapLib.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\unC0der\WpdPack\Include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D DPCCAPLIB_EXPORTS /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>c:\users\hp\desktop\winpcap dll utitles\dpccaplib\dpccaplib\defines.h(32): warning C4005: 'NO_ERROR' : macro redefinition
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(205) : see previous definition of 'NO_ERROR'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\HP\Desktop\Winpcap dll utitles\DpcCapLib\Debug\DpcCapLib.dll" /INCREMENTAL /NOLOGO /LIBPATH:C:\unC0der\WpdPack\Lib kernel32.lib user32.lib iphlpapi.lib wpcap.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\HP\Desktop\Winpcap dll utitles\DpcCapLib\Debug\DpcCapLib.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\HP\Desktop\Winpcap dll utitles\DpcCapLib\Debug\DpcCapLib.lib" /MACHINE:X86 /DLL Debug\Source.obj
+         DpcCapLib.vcxproj -> C:\Users\HP\Desktop\Winpcap dll utitles\DpcCapLib\Debug\DpcCapLib.dll
+     1>Done Building Project "C:\Users\HP\Desktop\Winpcap dll utitles\DpcCapLib\DpcCapLib\DpcCapLib.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.76
